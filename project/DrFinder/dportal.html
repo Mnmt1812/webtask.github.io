@@ -1,0 +1,547 @@
+<!DOCTYPE html>
+<html lang="zxx">
+<head>
+<!-- for-meta-tags-->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="Health Plus Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template, 
+Smartphone Compatible web template, free web designs for Nokia, Samsung, LG, SonyEricsson, Motorola web design" />
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false);
+		function hideURLbar(){ window.scrollTo(0,1); } </script>
+<!-- //for-meta-tags-->
+<link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
+<link href="css/wickedpicker.css" rel="stylesheet" type='text/css' media="all" />
+			<link rel="stylesheet" href="css/jquery-ui.css" />
+<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+<!-- font-awesome icons -->
+<link href="css/font-awesome.css" rel="stylesheet"> 
+<style>
+	.mn {
+		width: 100%;
+		color: #fff;
+		outline: none;
+		font-size: 0.9em;
+		line-height: 25px;
+		   padding: 10px 14px;
+		border: none;
+		-webkit-appearance: none;
+		margin: .3em 0em 1em;
+		background: rgb(62, 61, 61);
+	}
+	.book-appointment input[type="tel"] {
+		width: 100%;
+	  color: #fff;
+	  outline: none;
+	  font-size: 0.9em;
+	  line-height: 25px;
+		 padding: 10px 14px;
+	  border: none;
+	  -webkit-appearance: none;
+	  margin: .3em 0em 1em;
+	  background: rgb(62, 61, 61);
+  }
+</style>
+</head>
+	
+<body>
+<div class="main" id="home">
+<!-- banner -->
+		<div class="header_agileinfo">
+						<div class="w3_agileits_header_text">
+							<ul class="top_agile_w3l_info_icons">
+									<li><i class="fa fa-home" aria-hidden="true"></i>Patna,Bihar.</li>
+									<li class="second"><i class="fa fa-phone" aria-hidden="true"></i>(+91) 9100022233</li>
+									
+									<li><i class="fa fa-envelope-o" aria-hidden="true"></i><a href="mailto:docfinderplus4u@gmail.com">docfinderplus4u@gmail.com</a></li>
+								</ul>
+
+						</div>
+						<div class="agileinfo_social_icons">
+							<ul class="agileits_social_list">
+								<li><a href="https://www.facebook.com/" class="w3_agile_facebook"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+								<li><a href="https://twitter.com/" class="agile_twitter"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+								<li><a href="https://www.linkedin.com" class="w3_agile_linkedin"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+							</ul>
+						</div>
+						<div class="clearfix"> </div>
+			</div>				
+
+		<div class="header-bottom">
+			<nav class="navbar navbar-default">
+				<!-- Brand and toggle get grouped for better mobile display -->
+				<div class="navbar-header">
+				  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				  </button>
+					<div class="logo">
+						<h3><a class="navbar-brand" href="index.html"> DocFinder Plus <p>Health Access</p></a></h3>
+					</div>
+				</div>
+
+				<!-- Collect the nav links, forms, and other content for toggling -->
+				<div class="collapse navbar-collapse nav-wil" id="bs-example-navbar-collapse-1">
+					<nav class="menu menu--sebastian">
+					<ul id="m_nav_list" class="m_nav menu__list">
+						<li class="m_nav_item menu__item" id="m_nav_item_1"> <a href="index.html" class="menu__link"> Home </a></li>
+						<li class="m_nav_item menu__item" id="moble_nav_item_2"> <a href="about.html" class="menu__link"> About Us </a> </li>		
+						<li class="m_nav_item menu__item" id="moble_nav_item_4"> <a href="appointment.html" class="menu__link">Appointment  </a> </li>
+						<li class="m_nav_item menu__item" id="moble_nav_item_5"> <a href="gallery.html" class="menu__link">Departments</a> </li>
+						<li class="m_nav_item menu__item" id="moble_nav_item_6"> <a href="contact.html" class="menu__link"> Contact </a> </li>
+						<li class="m_nav_item menu__item menu__item--current" id="moble_nav_item_3 dropdown"> <a href="#" class="menu__link" data-toggle="dropdown">Doctor-Portal</a> 
+						   <!-- <ul class="dropdown-menu agile_short_dropdown">
+									<li><a href="login.php">Doctor </a></li>
+									<li><a href="login.php">Patient</a></li>
+									<li><a href="login.php">Admin</a></li>
+								</ul> -->
+						</li>
+					</ul>
+				</nav>
+
+				</div>
+				<!-- /.navbar-collapse -->
+			</nav>
+	 </div>
+</div>
+<!-- banner -->
+<!-- banner1 -->
+	<div class="banner1 jarallax">
+		<div class="container">
+		</div>
+	</div>
+
+	<div class="services-breadcrumb">
+		<div class="container">
+			<ul>
+				<li><a href="index.html">Home</a><i>|</i></li>
+				<li>Doctor Registration</li>
+			</ul>
+		</div>
+	</div>
+<!-- //banner1 -->
+<!-- icons -->
+	<div class="banner-bottom" id="about">
+		<div class="container">
+					<h2 class="w3_heade_tittle_agile">Join Us</h2>
+			        <p class="sub_t_agileits">Add Your Details</p>
+
+					<div class="book-appointment">
+						<h4>Please complete this registration form with your information</h4>
+						<form action="dportal.php" method="post" id="registrationForm" enctype="multipart/form-data" onsubmit="return validateForm()">
+							<div class="left-agileits-w3layouts same">
+								<div class="gaps">
+									<p>Name</p>
+									<input type="text" name="doctorName" placeholder="Full Name" required=""/>
+								</div>  
+								<div class="gaps">
+									<p>Gender</p>    
+									<select class="option" name="gender" placeholder="Gender" required="">
+										<option>Male</option>
+										<option>Female</option>
+										<option>Other</option>
+									</select>
+								</div>
+								<div class="gaps">
+									<p>Email</p>
+									<input type="email" name="email" id="email" placeholder="Email" required="">
+								</div>
+								<div class="gaps">
+									<p>Specialist</p>      
+									<select name="specialist" class="option" id="specialist" onchange="toggleSpecialistInput()" required="" >
+										<option value="">Select Specialist</option>
+										<option value="Cardiologist">Cardiologist</option>
+										<option value="Dermatologist">Dermatologist</option>
+										<option value="Neurologist">Neurologist</option>
+										<option value="Other">Other</option>
+									</select>
+									<input type="text" name="otherSpecialist" id="otherSpecialistInput" placeholder="Enter Other Specialist" style="display: none;">
+								</div>
+								<div class="gaps">
+									<p>Experience (Years)</p>
+									<select name="experience" id="experience" class="option" required="">
+										<!-- Options will be generated by JavaScript -->
+									</select>
+								</div>
+								<div class="gaps">
+									<p>Weekdays Availability</p>
+									<select name="weekdaysAvailability" id="weekdaysAvailability" class="option" required="">
+										<!-- Options will be generated by JavaScript -->
+									</select>
+								</div>
+								<div class="gaps">
+									<p>Lunch Time</p>
+									<select name="lunchtime" id="lunchtime" class="option">
+										<!-- Options will be generated by JavaScript -->
+									</select>
+								</div>
+								<div class="gaps">
+									<p>Clinic Name</p>
+									<input type="text" class="clinic" name="clinicName" placeholder="Clinic Name" required="">
+								</div>								
+								<div class="gaps">
+									<p>Password</p>
+									<input maxlength="8" type="password" id="password" name="password" placeholder="Valid password" required="" />
+									<span id="passwordError" style="color: red; font-size: 12px;"></span>
+								</div>
+							</div>
+							<div class="right-agileinfo same">
+								<div class="gaps">
+									<p>Date Of Birth</p>        
+									<input type="date" class="form-control" id="Dob" name="Dob" placeholder="Date of Birth">
+								</div>
+								<div class="gaps">    
+									<p>Phone Number</p>
+									<input type="tel" pattern="[0-9]{10}" maxlength="10" id="phone" name="phone" placeholder="Phone Number (10 digits)" required="">
+									<span id="phoneError" style="color: red; font-size: 12px;"></span>
+								</div>
+								<div class="gaps">
+									<p>City</p>     
+									<select name="city" class="option" id="city" onchange="toggleCityInput()" required="">
+										<option value="">Select City</option>
+										<option value="Sasaram">Sasaram</option>
+										<option value="Karahgarh">Karahgarh</option>
+										<option value="Badki kharar">Badki kharari</option>
+										<option value="Konar">Konar</option>
+										<option value="Other">Other</option>
+									</select>
+									<input type="text" name="otherCity" id="otherCityInput" placeholder="Enter Other City" style="display: none;">
+								</div>
+								<div class="gaps">
+									<p>Degree</p>      
+									<input type="text" name="degree" value="">   
+								</div>
+								<div class="gaps">
+									<p>Upload Photo (JPEG, 150x150 px)</p>
+									<input type="file" name="photo" class="mn" id="photo" accept="image/jpeg" />
+								</div>
+								<div class="gaps">
+									<p>Weekends Availability</p>
+									<select name="weekendsAvailability" id="weekendsAvailability" class="option" required="">
+										<!-- Options will be generated by JavaScript -->
+									</select>
+								</div>
+								<div class="gaps">
+									<p>Licence No.</p>     
+									<input type="text" name="licenceNo" value="">   
+								</div>
+								<div class="gaps">
+									<p>Confirm Password</p>
+									<input maxlength="8" type="password" id="confirmPassword" placeholder="Confirm password" required="" />
+									<span id="confirmPasswordError" style="color: red; font-size: 12px;"></span>
+								</div>
+								
+							</div>
+							<div class="clearfix"></div>
+							<input type="submit" value="Register">
+						</form>
+						
+						
+								<div style="margin-top: 40px; text-align: center;">
+									<input type="submit" value="Already Registered?Login" onclick="location.href='dlogin.html'">
+									
+								</div>
+								
+							</div>
+					   </div>
+
+		</div>
+<!-- icons -->
+
+
+
+
+<!-- footer -->
+	<div class="footer">
+		<div class="container">
+			<h4>Subscribe to <span>Newsletter</span></h4>
+			<form action="#" method="post">
+				<input type="email" name="Email" placeholder="Enter Your Email..." required="">
+				<input type="submit" value="Send">
+			</form>
+			<div class="agile_footer_copy">
+				<div class="w3agile_footer_grids">
+					<div class="col-md-4 w3agile_footer_grid">
+						<h3>About Us</h3>
+						<p>DocFinder Plus Healthcare<span>Healthcare IT Solution</span></p>
+					</div>
+					<div class="col-md-4 w3agile_footer_grid">
+						<h3>Contact Info</h3>
+						<ul>
+							<li>
+								<a href="https://maps.app.goo.gl/hdJ7VTLVLUMBHFBaA">
+									<i class="fa fa-map-marker" aria-hidden="true"></i>Patna, <span>Bihar.</span>
+								</a>
+							</li>
+							<li><i class="fa fa-envelope-o" aria-hidden="true"></i><a href="mailto:docfinderplus4u@gmail.com">docfinderplus4u@gmail.com</a></li>
+							<li><i class="fa fa-phone" aria-hidden="true"></i>+91 9100022233</li>
+						</ul>
+					</div>
+					<div class="col-md-4 w3agile_footer_grid w3agile_footer_grid1">
+						<h3>Navigation</h3>
+						<ul>
+							<li><span class="fa fa-long-arrow-right" aria-hidden="true"></span><a href="gallery.html">Department</a></li>
+							<li><span class="fa fa-long-arrow-right" aria-hidden="true"></span><a href="appointment.html">Appointment</a></li>
+							<li><span class="fa fa-long-arrow-right" aria-hidden="true"></span><a href="about.html">About</a></li>
+							<li><span class="fa fa-long-arrow-right" aria-hidden="true"></span><a href="contact.html">Contact Us</a></li>
+						</ul>
+					</div>
+					<div class="clearfix"> </div>
+				</div>
+			</div>
+			<div class="w3_agileits_copy_right_social">
+				<div class="col-md-6 agileits_w3layouts_copy_right">
+					<p>&copy; 2019 DocFinder Plus Healthcare. All rights reserved.</p>
+				</div>
+				<div class="col-md-6 w3_agile_copy_right">
+					<ul class="agileits_social_list">
+								<li><a href="https://www.facebook.com/" class="w3_agile_facebook"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+								<li><a href="https://twitter.com/" class="agile_twitter"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+							</ul>
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+		</div>
+	</div>
+<!-- //footer -->
+<a href="#" id="toTop" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
+ <!-- js -->
+<script src="js/jquery-2.2.3.min.js"></script>
+<script type="text/javascript" src="js/wickedpicker.js"></script>
+			<script type="text/javascript">
+				$('.timepicker').wickedpicker({twentyFour: false});
+			</script>
+		<!-- Calendar -->
+				<script src="js/jquery-ui.js"></script>
+				  <script>
+						  $(function() {
+							$( "#datepicker,#datepicker1,#datepicker2,#datepicker3" ).datepicker();
+						  });
+				  </script>
+			<!-- //Calendar -->
+
+<!-- bootstrap-pop-up -->
+	<div class="modal video-modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModal">
+		<div class="modal-dialog" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					Health Plus
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>						
+				</div>
+				<section>
+					<div class="modal-body">
+						<img src="images/g9.jpg" alt=" " class="img-responsive" />
+						<p>Ut enim ad minima veniam, quis nostrum 
+							exercitationem ullam corporis suscipit laboriosam, 
+							nisi ut aliquid ex ea commodi consequatur? Quis autem 
+							vel eum iure reprehenderit qui in ea voluptate velit 
+							esse quam nihil molestiae consequatur, vel illum qui 
+							dolorem eum fugiat quo voluptas nulla pariatur.
+							<i>" Quis autem vel eum iure reprehenderit qui in ea voluptate velit 
+								esse quam nihil molestiae consequatur.</i></p>
+					</div>
+				</section>
+			</div>
+		</div>
+	</div>
+<!-- //bootstrap-pop-up -->
+<!-- start-smoth-scrolling -->
+<script type="text/javascript" src="js/move-top.js"></script>
+<script type="text/javascript" src="js/easing.js"></script>
+<script type="text/javascript">
+	jQuery(document).ready(function($) {
+		$(".scroll").click(function(event){		
+			event.preventDefault();
+			$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+		});
+	});
+</script>
+<!-- start-smoth-scrolling -->
+			<script src="js/jarallax.js"></script>
+	<script src="js/SmoothScroll.min.js"></script>
+	<script type="text/javascript">
+		/* init Jarallax */
+		$('.jarallax').jarallax({
+			speed: 0.5,
+			imgWidth: 1366,
+			imgHeight: 768
+		})
+	</script>
+	
+	<script src="js/bootstrap.js"></script>
+<!-- //for bootstrap working -->
+<!-- here stars scrolling icon -->
+	<script type="text/javascript">
+		$(document).ready(function() {
+			/*
+				var defaults = {
+				containerID: 'toTop', // fading element id
+				containerHoverID: 'toTopHover', // fading element hover id
+				scrollSpeed: 1200,
+				easingType: 'linear' 
+				};
+			*/
+								
+			$().UItoTop({ easingType: 'easeOutQuart' });
+								
+			});
+	</script>
+	
+	
+	<script>
+function myFunction1() {
+  alert("Your appointment is booked. Our specalist is available in your given date and time.");
+}
+function myFunction1() {
+	var password = document.getElementById("password").value;
+	var confirmPassword = document.getElementById("confirmPassword").value;
+
+	// Password validation: First letter capital, small letters, one character, and numeric, max 8
+	var passwordPattern = /^(?=.*[A-Z])(?=.*[a-z])(?=.*\d)[A-Za-z\d]{8}$/;
+
+	if (!password.match(passwordPattern)) {
+		document.getElementById("passwordError").innerText = "Password must contain first letter capital, small letters, one character, and numeric, max 8";
+		return false;
+	} else {
+		document.getElementById("passwordError").innerText = "";
+	}
+
+	// Confirm password validation
+	if (password !== confirmPassword) {
+		document.getElementById("confirmPasswordError").innerText = "Passwords do not match";
+		return false;
+	} else {
+		document.getElementById("confirmPasswordError").innerText = "";
+	}
+
+	return true;
+}
+function previewPhoto(event) {
+	var reader = new FileReader();
+	reader.onload = function() {
+		var imagePreview = document.getElementById('imagePreview');
+		imagePreview.innerHTML = '';
+		var imgElement = document.createElement('img');
+		imgElement.src = reader.result;
+		imgElement.width = 150; // Set width to 150px
+		imgElement.height = 150; // Set height to 150px
+		imagePreview.appendChild(imgElement);
+	}
+	reader.readAsDataURL(event.target.files[0]);
+}
+function toggleSpecialistInput() {
+	var specialistSelect = document.getElementById("specialist");
+	var otherSpecialistInput = document.getElementById("otherSpecialistInput");
+
+	if (specialistSelect.value === "Other") {
+		otherSpecialistInput.style.display = "block";
+	} else {
+		otherSpecialistInput.style.display = "none";
+	}
+}
+
+// Function to toggle the input field for other city
+function toggleCityInput() {
+	var citySelect = document.getElementById("city");
+	var otherCityInput = document.getElementById("otherCityInput");
+
+	if (citySelect.value === "Other") {
+		otherCityInput.style.display = "block";
+	} else {
+		otherCityInput.style.display = "none";
+	}
+}
+
+</script>
+<script>
+    document.getElementById('registrationForm').addEventListener('submit', function(event) {
+        var password = document.getElementById('password').value;
+        var confirmPassword = document.getElementById('confirmPassword').value;
+
+        if (password !== confirmPassword) {
+            alert("Password and Confirm Password do not match.");
+            event.preventDefault();
+        }
+    });
+	function generateExperienceOptions() {
+        var select = document.getElementById("experience");
+        for (var i = 0; i <= 10; i++) {
+            var option = document.createElement("option");
+            option.value = i;
+            option.text = i;
+            select.appendChild(option);
+        }
+    }
+
+     // Function to generate options for weekdays availability
+	 function generateWeekdaysAvailabilityOptions() {
+        var select = document.getElementById("weekdaysAvailability");
+        var weekdays = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"];
+        for (var i = 0; i < weekdays.length; i++) {
+            var option = document.createElement("option");
+            option.value = weekdays[i];
+            option.text = weekdays[i];
+            select.appendChild(option);
+        }
+    }
+
+    // Function to generate options for weekends availability
+    function generateWeekendsAvailabilityOptions() {
+        var select = document.getElementById("weekendsAvailability");
+        var weekends = ["Saturday", "Sunday"];
+        for (var i = 0; i < weekends.length; i++) {
+            var option = document.createElement("option");
+            option.value = weekends[i];
+            option.text = weekends[i];
+            select.appendChild(option);
+        }
+    }
+
+    // Function to generate options for lunchtime (time slots)
+    function generateLunchTimeOptions() {
+        var select = document.getElementById("lunchtime");
+        var times = ["12:00 PM - 1:00 PM", "1:00 PM - 2:00 PM", "2:00 PM - 3:00 PM"];
+        for (var i = 0; i < times.length; i++) {
+            var option = document.createElement("option");
+            option.value = times[i];
+            option.text = times[i];
+            select.appendChild(option);
+        }
+    }
+
+    // Call the functions to generate options when the page loads
+    window.onload = function() {
+		generateExperienceOptions();
+        generateWeekdaysAvailabilityOptions();
+        generateWeekendsAvailabilityOptions();
+        generateLunchTimeOptions();
+    };
+	function validateForm() {
+		var email = document.getElementById("email").value;
+		var phone = document.getElementById("phone").value;
+	
+		// Email validation
+		var emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+		if (!emailRegex.test(email)) {
+			alert("Please enter a valid email address.");
+			return false;
+		}
+	
+		// Phone number validation
+		var phoneRegex = /^[6-9][0-9]{9}$/;
+		if (!phoneRegex.test(phone)) {
+			alert("Please enter a valid 10-digit phone number");
+			return false;
+		}
+	
+		// If all validations pass, return true
+		return true;
+	}
+	
+	
+</script>
+
+
+</body>
+</html>
